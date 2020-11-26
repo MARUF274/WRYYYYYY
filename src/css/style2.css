@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-attachment: fixed;
+    background-image: url(../img/782534.jpg);
+    background-repeat: no-repeat;
+}
+.container{
+    background-color: rgba(197, 199, 201, 0.925);
+    margin-top: 70px;
+    padding: 40px;
+}
+.jumbotron{
+    background-color: rgba(240, 248, 255, 0);
+}
