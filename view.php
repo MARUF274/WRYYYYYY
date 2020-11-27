@@ -49,7 +49,7 @@ $getProduct = $connection->query("SELECT * FROM vn ");
 while ($fetchVN = $getProduct->fetch_assoc()){
 ?>
         </div>
-        <div class="card mb-3 mr-auto ml-auto" style="max-width: 940px;">
+        <div class="card mb-3 mr-auto ml-auto border-info" style="max-width: 940px;">
             <div class="card-header">
                 Id: <?=$fetchVN["ID"]?>
             </div>

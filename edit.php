@@ -68,7 +68,7 @@ $getData = $getData->fetch_assoc();
             <h3 style="text-align: center; text-weight:lighter;">Silakan Edit Data Visual Novel di Database</h3>
 
         </div>
-        <form style="margin-left: 50px;margin-right: 50px;" action="editVN.php" method="POST"
+        <form style="margin-left: 50px;margin-right: 50px;" action="doUpdateProduct.php" method="POST"
             enctype="multipart/form-data">
             <input type="hidden" name="id" value="<?=$_GET["ID"]?>">
             <div class="form-group row">
